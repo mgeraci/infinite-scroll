@@ -149,7 +149,7 @@
 				$(opts.navSelector).hide();
 				opts.loading.msg
 					.appendTo(opts.loading.selector)
-					.show(opts.loading.speed, function () {
+					.fadeIn(opts.loading.speed, function () {
 	                	beginAjax(opts);
 	            });
 			};
